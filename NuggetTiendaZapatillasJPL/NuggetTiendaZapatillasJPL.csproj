@@ -4,6 +4,20 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>Javier Pantoja</Authors>
+    <Description>Nugget que contiene los modelos necesarios para realizar una tienda de zapatillas online</Description>
+    <PackageIcon>hero-img_copy.jpg</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Pictures\hero-img_copy.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+  </ItemGroup>
 
 </Project>

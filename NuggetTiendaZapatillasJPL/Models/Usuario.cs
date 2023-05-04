@@ -1,12 +1,16 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace NuggetTiendaZapatillasJPL
+namespace NuggetTiendaZapatillasJPL.Models
 {
     [Table("USUARIOS")]
     public class Usuario
     {
-
         [Key]
         [Column("IDUSUARIO")]
         public int IdUsuario { get; set; }
